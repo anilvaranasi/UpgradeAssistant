@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_146833_upgrade_0.admin" name="x_146833_upgrade_0.admin">7f71a1ac9701c6105f703dafe153af32</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-16 17:53:24</sys_created_on>
+        <sys_id>f371a1ac9701c6105f703dafe153af35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7f71a1ac9701c6105f703dafe153af32</sys_name>
+        <sys_package display_value="UpgradeAssistant" source="x_146833_upgrade_0">237161ac9701c6105f703dafe153aff8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="UpgradeAssistant">237161ac9701c6105f703dafe153aff8</sys_scope>
+        <sys_update_name>sys_embedded_help_role_f371a1ac9701c6105f703dafe153af35</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-16 17:53:24</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
