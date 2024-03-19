@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b695ede09741c6105f703dafe153af5e" extends="sys_import_set_row" label="Analyze Plugins" max_length="40" name="x_146833_upgrade_0_pluginlist" type="collection">
+        <element choice="1" label="Action" max_length="40" name="action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Upgrade" sequence="0" value="Upgrade"/>
+                <element inactive_on_update="false" label="Replace" sequence="1" value="Replace"/>
+                <element inactive_on_update="false" label="As Is" sequence="2" value="As Is"/>
+            </choice>
+        </element>
+        <element label="Plugin Notes" max_length="4000" name="plugin_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Ready" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Processed" value="Processed"/>
+                <element inactive_on_update="false" label="Processing" value="Processing"/>
+                <element inactive_on_update="false" label="Ready" value="Ready"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_input" label="Input" max_length="40" name="u_input" type="string"/>
+    </element>
+</database>
